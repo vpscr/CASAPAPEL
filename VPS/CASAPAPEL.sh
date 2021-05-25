@@ -40,7 +40,7 @@ INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 mkdir -p "/etc/vpsmxup/"
 ## Install/update
 if [ ! -d "$INSTALL_DIR" ]; then
-	echo -e  "\033[1;97m           Instalando Paquetes Prioritarios"
+	echo -e  "\033[1;97m           INSTALANDO REPOSITORIOS GRASIAS POR UTILIZAR"
 	echo "           --------------------------------"
 	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
